@@ -15,7 +15,8 @@ if ($(window).width() <= 1280) {
     tag2       = $('.Announcement'),
     tag3       = $('.New Features'),
     tag4       = $('.Engineering'),
-    tag5       = $('.Members'),
+	tag5       = $('.Tutorials'),
+    tag6       = $('.Members'),
 var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
@@ -29,7 +30,7 @@ var clickHandler = function(k) {
     window['tag'+k].delay(50).fadeIn(350);
   }
 };
-for (var i = 1; i <= 5; i++) {
+for (var i = 1; i <= 6; i++) {
   $('#js-label' + i).on('click', clickHandler(i));
 }
 
