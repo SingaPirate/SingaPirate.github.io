@@ -133,7 +133,7 @@ function afterPjax() {
   var ds_loaded = false,
       top = $('#disqus_thread').offset().top;
       identifier = $('#post__title').data('identifier');
-  window.disqus_shortname = '';
+  window.disqus_shortname = 'mogaraorg';
   window.disqus_identifier = identifier;
 
   function check() {
