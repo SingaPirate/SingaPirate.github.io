@@ -1,22 +1,22 @@
-title:            Site Title
-description:      Describe your website here.
-disqus_shortname: hpstrtheme
+title:            mogara.org
+description:      Home Page of An User-oriented Free Software Foundation
+disqus_shortname: MogaraOrg
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:
+url: 			  //MogaraOrg.github.io
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  name:           Mogara
+  avatar:         logo.png
+  bio:            "Official development team of famous Chinese game QSanguosha"
+  email:          dev@qsanguosha.org
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         
+  github:         https://github.com/MogaraOrg
   stackexchange:  
   linkedin:       
   instagram:      
