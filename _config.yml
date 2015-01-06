@@ -1,1 +1,4 @@
 pygments: true
+lunr_search:
+	excludes: [rss.xml]
+	js_dir: "assets/js/"
