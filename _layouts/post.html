@@ -32,7 +32,7 @@
         {% endif %}
         <h2><span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h2>
 		{% if page.author %}
-		  <p><span class="entry-author"><a href="{{ site.url }}/about/{{ page.author }}" title="关于 {{ page.author }}">作者： {{ page.author }}</a></span></p>
+		  <p class="entry-author"><a href="{{ site.url }}/about/{{ page.author }}" title="关于 {{ page.author }}">作者： {{ page.author }}</a></p>
 		{% endif %}
         {% if site.reading_time %}
         <p class="entry-reading-time">
