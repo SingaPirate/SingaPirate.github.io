@@ -43,7 +43,14 @@
         {% if page.share != false %}{% include social-share.html %}{% endif %}
       </footer>
     </div><!-- /.entry-content -->
-    {% if page.comments != false %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+    {% if page.comments != false %}
+	{% if site.uyan_enabled %}
+	<!-- UY BEGIN -->
+	<div id="uyan_frame"></div>
+	<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2000675"></script>
+	<!-- UY END -->
+	{% endif %}
+	{% endif %}
   </article>
 </div><!-- /#main -->
 
