@@ -61,9 +61,6 @@ body {
 		color: lighten($base-color,20);
 	}
 }
-.header-title .entry-author {
-	color: lighten($base-color,20);
-}
 .feature .header-title {
 	position: absolute;
 	top: 0;
@@ -104,7 +101,7 @@ body {
 		color: $white;
 	}
 }
-.feature .header-title .entry-author {
+.entry-author {
 	color: $white;
 }
 .entry-image {
