@@ -57,10 +57,7 @@ body {
 			@include font-rem(24);
 		}
 	}
-	.entry-author {
-		color: lighten($base-color,20);
-	}
-	p {
+	.entry-author, p {
 		color: lighten($base-color,20);
 	}
 }
@@ -100,10 +97,7 @@ body {
 			}
 		}
 	}
-	.entry-author {
-		color: $white;
-	}
-	p {
+	.entry-author, p {
 		color: $white;
 	}
 }
