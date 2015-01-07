@@ -31,6 +31,11 @@
           <h1 class="entry-title"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
         {% endif %}
         <h2><span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h2>
+		{% if page.author %}
+		  <span class="entry-author"><span class="fn"><a href="{{ site.url }}/about/{{ page.author }}" title="关于 {{ page.author }}">作者： {{ page.author }}</a></span></span>
+		{% else %}
+		  <span class="entry-author"><span class="fn"><a href="{{ site.url }}/about/" title="关于 {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
+		{% endif %}
         {% if site.reading_time %}
         <p class="entry-reading-time">
           <i class="fa fa-clock-o"></i>
