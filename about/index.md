@@ -1,34 +1,28 @@
 ---
 layout: page
-title: About the Jekyll Theme
+title: About Mogara
 image:
   feature: abstract-5.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: false
-modified: 2014-12-24
+modified: 2014-01-07
 ---
 
-They say three times the charm, so here is another free responsive Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. 
+Mogara是一个中文自由软件组织，目前负责维护开源桌面游戏太阳神三国杀，坚信开源和自由软件的力量可以影响世界。
 
-If you've used any of [my other themes](http://mademistakes.com/work/jekyll-themes/) most of this should be familiar territory...
+作品：
 
-## What HPSTR brings to the table:
+## 太阳神三国杀(QSanguosha)
 
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Built-in support for Sass courtesy of Jekyll 2.x.
-* Optional [Disqus](http://disqus.com) comments.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
+* 基于 Qt5，GPLv3 协议
+* 可使用 TCP 协议进行联机对战
+* 完美支持 Windows、Linux、OS X 等桌面平台，iOS 及 Android 版本的表现正在改进中
+* 使用 Lua 脚本进行 AI 模块的编写，支持使用 Lua DIY 新的武将、游戏牌并加入游戏
+* 内置卡牌编辑器，可以制作三国杀武将卡牌
+* 使用 freetype 进行字体渲染，保证在一些内置字体渲染引擎表现力不足的平台上有更好的字体外观
+* 使用 fmodex 进行音频解码及音效输出
+* 官方新武将会在第一时间更新
+* 按照官方流程及时更新游戏的流程，即使规则变化再快，也能第一时间体验
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup/" class="btn btn-info">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme" class="btn btn-success">Download HPSTR</a></div>
-
-[^1]: Example: *domain.com/category-name/post-title*
+<div markdown="0"><a href="https://github.com/MogaraOrg/QSanguosha/tree/dev" class="btn btn-info">项目主页</a> <a href="https://github.com/MogaraOrg/QSanguosha/archive/master.zip" class="btn btn-success">下载源码</a></div>

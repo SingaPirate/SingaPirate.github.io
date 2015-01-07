@@ -1,5 +1,5 @@
 title:            Mogara Free Software
-description:      Home page of Mogara Free Software Organization
+description:      Mogara自由软件主页
 disqus_shortname: mogara
 reading_time:     true
 words_per_minute: 200
@@ -11,7 +11,7 @@ url:			  http://mogara.org
 owner:
   name:           Mogara
   avatar:         logo.png
-  bio:            "Open your source, you may influence the world"
+  bio:            "作品：太阳神三国杀(2010) 崩溃信息上传工具(2014) ..."
   email:          mogara@mogara.org
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
