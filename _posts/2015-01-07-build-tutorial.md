@@ -16,22 +16,22 @@ image:
 
 ###GPL 协议
 
-太阳神三国杀是一个遵循 GPLv3 协议的开源项目，在编译和使用时应当完全遵守 GPLv3 协议。
-具体地，可以参考源码目录下的 LICENSE 文件，以获得更多有关 GPLv3 的信息。
-对于因违反协议而引发的法律问题，Mogara 开发组（以下简称开发组）不承担任何责任，所以请在阅读本文档之前认真阅读 GPLv3 协议。
+太阳神三国杀是一个遵循 GPLv3 协议的开源项目，在编译和使用时应当完全遵守 GPLv3 协议。 
+具体地，可以参考源码目录下的 LICENSE 文件，以获得更多有关 GPLv3 的信息。 
+对于因违反协议而引发的法律问题，Mogara 开发组（以下简称开发组）不承担任何责任，所以请在阅读本文档之前认真阅读 GPLv3 协议。 
 
 ###你的身份
 
-如果你是一名开发者，请留意本文档中**明显强调**的内容，这些内容将有助于你对整个过程的理解，同时，这些内容也会给你提供一些更加高级的信息。（将有利于你的代码工作）
+如果你是一名开发者，请留意本文档中**明显强调**的内容，这些内容将有助于你对整个过程的理解，同时，这些内容也会给你提供一些更加高级的信息。（将有利于你的代码工作） 
 如果你是一名玩家，你也可以留意这些内容。
 
 ###源码地址
 
-目前的源码地址有这样几个：
-太阳神三国杀-主线项目：[https://github.com/MogaraOrg/QSanguosha](https://github.com/MogaraOrg/QSanguosha) （目前正处于开发状态）
-太阳神三国杀-国战项目：[https://github.com/MogaraOrg/QSanguosha-For-Hegemony](https://github.com/MogaraOrg/QSanguosha-For-Hegemony)
-你可以任选一个进行编译，当然，我们建议你选择国战，因为主线还没有彻底完成。
-注意，这些网站都是外国网站，有时候会非常慢。
+目前的源码地址有这样几个： 
+太阳神三国杀-主线项目：[https://github.com/MogaraOrg/QSanguosha](https://github.com/MogaraOrg/QSanguosha) （目前正处于开发状态） 
+太阳神三国杀-国战项目：[https://github.com/MogaraOrg/QSanguosha-For-Hegemony](https://github.com/MogaraOrg/QSanguosha-For-Hegemony) 
+你可以任选一个进行编译，当然，我们建议你选择国战，因为主线还没有彻底完成。 
+注意，这些网站都是外国网站，有时候会非常慢。 
 
 ###构建工具
 
@@ -41,7 +41,7 @@ image:
 
 * MinGW
 
-这种编译器环境配置简单，适合非开发者使用。
+这种编译器环境配置简单，适合非开发者使用。 
 这种编译器包含在 Qt 的安装包里。
 
 * MSVC
@@ -50,20 +50,20 @@ image:
 
 ####Qt
 
-Qt 是一个运行库。因为太阳神三国杀（以下简称为神杀）使用了 Qt 框架，所以需要下载相应的 Qt 运行库来配置开发环境。
-本文档使用 Qt5.4.0 的 Library 。
-对于下载地址，需要根据你的编译器版本来选择，这里暂不放出。
+Qt 是一个运行库。因为太阳神三国杀（以下简称为神杀）使用了 Qt 框架，所以需要下载相应的 Qt 运行库来配置开发环境。 
+本文档使用 Qt5.4.0 的 Library 。 
+对于下载地址，需要根据你的编译器版本来选择，这里暂不放出。 
 
 ####SWIG
 
-SWIG 用于处理 Lua 的接口，是一个非常重要的工具。
-本文档使用 SWIG 的 3.0.2 版本。
+SWIG 用于处理 Lua 的接口，是一个非常重要的工具。 
+本文档使用 SWIG 的 3.0.2 版本。 
 下载地址：[http://sourceforge.net/projects/swig/files/swigwin/](http://sourceforge.net/projects/swig/files/swigwin/) （3.0.2版本）
 
 ###处理源码
 
-你可以选择上面源码地址中的一个进行下载。打开连接后，在网页的右边又一个 Download Zip 的按钮，点击一下，源码就会以Zip的压缩文件的形式下载下来。
-**明显强调：这不是单一的下载源码的方法，你也可以使用git Extensions来下载源码。相对于 Download Zip而言，使用git可以随时检查源码的更新状态。[点击进入]({{ site.url }}/git-extensions-tutorial)git Extensions的使用方法介绍页。**
+你可以选择上面源码地址中的一个进行下载。打开连接后，在网页的右边又一个 Download Zip 的按钮，点击一下，源码就会以Zip的压缩文件的形式下载下来。 
+**明显强调：这不是单一的下载源码的方法，你也可以使用git Extensions来下载源码。相对于 Download Zip而言，使用git可以随时检查源码的更新状态。[（git Extensions的使用方法介绍页）]({{ site.url }}/git-extensions-tutorial)git Extensions的使用方法介绍页。** 
 下载完源码之后，解压开，（如果你使用git Extensions就不必解压）你会得到这样的一个文件夹：（以国战为例）
 
 ![]({{ site.url }}/images/hegemony.png)
@@ -82,9 +82,9 @@ SWIG 用于处理 Lua 的接口，是一个非常重要的工具。
 
 打开一个终端在 swig 的解压目录，然后输入这样的几条命令：
 
-./configure --without-pcre
-   make
-   sudo make install
+./configure --without-pcre 
+   make 
+   sudo make install 
 
 至此，编译前的准备工作完成。
 
@@ -111,18 +111,18 @@ SWIG 用于处理 Lua 的接口，是一个非常重要的工具。
 
 ###下载 Qt 库
 
-选择好平台后，我们需要下载Qt。
+选择好平台后，我们需要下载Qt。 
 Qt官方下载页面：[http://www.qt.io/download-open-source/](http://www.qt.io/download-open-source/)
 
 ![]({{ site.url }}/images/downloads.png)
 
-打开 View All Downloads：
+打开 View All Downloads： 
 然后根据你的平台选择响应的安装包。比如说如果你是 Win64+VS2013，则应该选择
 
 ![]({{ site.url }}/images/win64vs13.png)
 
-这两个中的一个，其余的以此类推。
-注意：
+这两个中的一个，其余的以此类推。 
+注意： 
 1.如果你希望同时编译 Windows 和 Android 版本，你应该选择 Android 版本，
 
 ![]({{ site.url }}/images/android.png)
@@ -165,12 +165,12 @@ Qt官方下载页面：[http://www.qt.io/download-open-source/](http://www.qt.io
 
 ![]({{ site.url }}/images/setup2.png)
 
-这里的安装目录你可以改一改，因为放在C盘实在是太坑爹了……
+这里的安装目录你可以改一改，因为放在C盘实在是太坑爹了…… 
 选好目录后，点下一步：
 
 ![]({{ site.url }}/images/setup3.png)
 
-对于只想编译 Windows 版的可以直接点下一步。
+对于只想编译 Windows 版的可以直接点下一步。 
 而对于 Android 版的来说，则需要稍微配置一下，点开 Qt5.4 这一项前面的小三角：
 
 ![]({{ site.url }}/images/setup4.png)
@@ -179,8 +179,8 @@ Qt官方下载页面：[http://www.qt.io/download-open-source/](http://www.qt.io
 
 ![]({{ site.url }}/images/setup6.png)
 
-这三项，则需要根据你的 Android 设备的 CPU 型号来决定了。具体地，你可以到网络上查询你的 Android 设备的型号，再查询其 CPU 型号，看看相关的信息。
-最后一项 Source Components 是源码，可以不装。当然，装了基本没用……
+这三项，则需要根据你的 Android 设备的 CPU 型号来决定了。具体地，你可以到网络上查询你的 Android 设备的型号，再查询其 CPU 型号，看看相关的信息。 
+最后一项 Source Components 是源码，可以不装。当然，装了基本没用…… 
 选择好了以后，你就可以下一步了。
 
 ![]({{ site.url }}/images/setup7.png)
@@ -193,36 +193,36 @@ Qt官方下载页面：[http://www.qt.io/download-open-source/](http://www.qt.io
 
 ![]({{ site.url }}/images/setup9.png)
 
-然后你就可以点安装了。
+然后你就可以点安装了。 
 在安装完之后，又一个运行 QtCreator 的选项，建议先将其去掉……然后退出安装程序即可。
 
 	- 安装Android SDK   Android NDK   JDK   Ant等
 
-这4个东西都是编译Android平台所需要的。
-下载下来后请将其解压到一个位置。
-Android SDK ：[http://wear.techbrood.com/sdk/index.html](http://wear.techbrood.com/sdk/index.html)
-打开后先点击VIEW ALL DOWNLOADS AND SIZES，然后再选择与你匹配的版本。
-Android NDK ：[http://wear.techbrood.com/tools/sdk/ndk/index.html](http://wear.techbrood.com/tools/sdk/ndk/index.html)
-直接选择与你匹配版本即可。
-JDK:[http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
-首先要点击许可协议：（选择左边的那个）
+这4个东西都是编译Android平台所需要的。 
+下载下来后请将其解压到一个位置。 
+Android SDK ：[http://wear.techbrood.com/sdk/index.html](http://wear.techbrood.com/sdk/index.html) 
+打开后先点击VIEW ALL DOWNLOADS AND SIZES，然后再选择与你匹配的版本。 
+Android NDK ：[http://wear.techbrood.com/tools/sdk/ndk/index.html](http://wear.techbrood.com/tools/sdk/ndk/index.html) 
+直接选择与你匹配版本即可。 
+JDK:[http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html) 
+首先要点击许可协议：（选择左边的那个） 
 
 ![]({{ site.url }}/images/setup10.png)
 
-然后直接选择与你匹配版本即可。
-Ant：[http://mirrors.hust.edu.cn/apache//ant/binaries/apache-ant-1.9.4-bin.zip](http://mirrors.hust.edu.cn/apache//ant/binaries/apache-ant-1.9.4-bin.zip)
-下载后解压即可。
-接下来需要配置 QtCreator 。
+然后直接选择与你匹配版本即可。 
+Ant：[http://mirrors.hust.edu.cn/apache//ant/binaries/apache-ant-1.9.4-bin.zip](http://mirrors.hust.edu.cn/apache//ant/binaries/apache-ant-1.9.4-bin.zip) 
+下载后解压即可。 
+接下来需要配置 QtCreator 。 
 运行 QtCreator ，打开工具→选项→Android：
 
 ![]({{ site.url }}/images/setup11.png)
 
-这里是已经配置好了的，点击浏览，参照上图选择文件夹……（这里的Android SDK放在D:\Android_Deployment\Android_SDK文件夹，NDK放在D:\Android_Deployment\Android_NDK文件夹）
+这里是已经配置好了的，点击浏览，参照上图选择文件夹……（这里的Android SDK放在D:\Android_Deployment\Android_SDK文件夹，NDK放在D:\Android_Deployment\Android_NDK文件夹） 
 配置完成后，点击下面的OK，然后关掉QtCreator。
 
 	- SWIG小插曲
 
-在确保正确配置 SWIG 的情况下，打开swig文件夹，运行其目录下的cxx-creator批处理。
+在确保正确配置 SWIG 的情况下，打开swig文件夹，运行其目录下的cxx-creator批处理。 
 在运行完成之后，你应该会看到目录下多了一个sanguosha_wrap.cxx文件，代表这一步完成了。
 
 	- 运行 QtCreator
@@ -235,7 +235,7 @@ Ant：[http://mirrors.hust.edu.cn/apache//ant/binaries/apache-ant-1.9.4-bin.zip]
 
 ![]({{ site.url }}/images/setup13.png)
 
-选择你需要的编译目标。第一个电脑形状的就是 Windows 平台的，其他的是 Android 平台。（你可能没有这么多的选项，当然，选择你需要的就行了……）
+选择你需要的编译目标。第一个电脑形状的就是 Windows 平台的，其他的是 Android 平台。（你可能没有这么多的选项，当然，选择你需要的就行了……） 
 在配置完成后，会出现这样的界面：
 
 ![]({{ site.url }}/images/setup14.png)
@@ -248,17 +248,17 @@ Ant：[http://mirrors.hust.edu.cn/apache//ant/binaries/apache-ant-1.9.4-bin.zip]
 
 ![]({{ site.url }}/images/setup16.png)
 
-然后等QtCreator分析一会，就可以点那个锤子![]({{ site.url }}/images/setup17.png)了，然后它就会自己编译。
+然后等QtCreator分析一会，就可以点那个锤子![]({{ site.url }}/images/setup17.png)了，然后它就会自己编译。 
 正常情况下编译是不会有错误的，如果有错误，请及时到项目主页反馈给开发组。
 
-等它编译完之后，转到生成目录：
+等它编译完之后，转到生成目录： 
 Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目，点构建和运行，应该是个这样的界面：
 
 ![]({{ site.url }}/images/setup18.png)
 
-然后你就看到构建目录了。
-打开构建目录下的 Release 文件夹，从里面找到 QSanguosha.exe，然后把其复制到源码目录下。
-先不要着急运行，从你的Qt安装目录下5.4\ mingw491_32（或者64？）\bin下找出下列几个 dll 复制到源码目录：
+然后你就看到构建目录了。 
+打开构建目录下的 Release 文件夹，从里面找到 QSanguosha.exe，然后把其复制到源码目录下。 
+先不要着急运行，从你的Qt安装目录下5.4\ mingw491_32（或者64？）\bin下找出下列几个 dll 复制到源码目录： 
 * icudt53.dll
 * icuin53.dll
 * icuuc53.dll
@@ -280,12 +280,12 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 
 至此，编译过程完成了。
 
-当然，如果一直玩英文版的肯定是不爽啊，我们需要用 Qt 来生成翻译文件。
+当然，如果一直玩英文版的肯定是不爽啊，我们需要用 Qt 来生成翻译文件。 
 点击上面的工具→外部→Qt语言家→发布翻译：
 
 ![]({{ site.url }}/images/setup20.png)
 
-然后翻译文件 sanguosha.qm 就在源码目录下 build 文件夹里生成了，将其复制到源码目录即可。
+然后翻译文件 sanguosha.qm 就在源码目录下 build 文件夹里生成了，将其复制到源码目录即可。 
 至此，Windows 平台编译过程结束。
 
 #####部署在Android平台：
@@ -296,10 +296,10 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 
 然后等QtCreator分析一会，就可以点那个锤子![]({{ site.url }}/images/setup17.png)了，然后它就会自己编译。
 
-正常情况下编译是不会有错误的，如果有错误，请及时到项目主页反馈给开发组。
-在它编译完成后，转到生成目录下的 android-build\bin 文件夹，找到里面的 QtApp-debug.apk ，将其安装到你的Android设备上。
-图省略（……）
-然后将下面几个文件夹复制到你的 Android 设备的 SD 卡或者内存（即你安装的位置）下的 /Android/data/org.qsgsrara.qsanguosha 目录：
+正常情况下编译是不会有错误的，如果有错误，请及时到项目主页反馈给开发组。 
+在它编译完成后，转到生成目录下的 android-build\bin 文件夹，找到里面的 QtApp-debug.apk ，将其安装到你的Android设备上。 
+图省略（……） 
+然后将下面几个文件夹复制到你的 Android 设备的 SD 卡或者内存（即你安装的位置）下的 /Android/data/org.qsgsrara.qsanguosha 目录： 
 
 * ai-selector
 * audio
@@ -338,7 +338,7 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 
 ![]({{ site.url }}/images/setup22.png)
 
-打开它，
+打开它， 
 （解压数据的部分略过）
 
 ![]({{ site.url }}/images/setup23.png)
@@ -359,7 +359,7 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 
 ![]({{ site.url }}/images/setup27.png)
 
-然后就可以点 Install 了
+然后就可以点 Install 了 
 安装步骤，点 Show details 可以显示详情。
 
 ![]({{ site.url }}/images/setup28.png)
@@ -380,7 +380,7 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 
 ![]({{ site.url }}/images/setup31.png)这是VS2010的，当然VS2013应该也差不多……
 
-打开后，把上方的生成方案由![]({{ site.url }}/images/setup32.png)转换为![]({{ site.url }}/images/setup33.png)
+打开后，把上方的生成方案由![]({{ site.url }}/images/setup32.png)转换为![]({{ site.url }}/images/setup33.png) 
 然后就可以直接 Ctrl+Shift+B 编译了。
 
 ![]({{ site.url }}/images/setup34.png)
@@ -389,8 +389,8 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 
 ![]({{ site.url }}/images/setup35.png)
 
-打开源码目录下的 Bin 文件夹，将生成的 QSanguosha.exe 复制到源码目录下。
-别着急运行，我们还需要复制这样几个 dll：（从 Qt 的安装目录下 5.4/msvc**/bin 中）
+打开源码目录下的 Bin 文件夹，将生成的 QSanguosha.exe 复制到源码目录下。 
+别着急运行，我们还需要复制这样几个 dll：（从 Qt 的安装目录下 5.4/msvc**/bin 中） 
 * icudt53.dll
 * icuin53.dll
 * icuuc53.dll
@@ -403,11 +403,11 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 * Qt5Widgets.dll
 * Qt5XmlPatterns.dll
 
-如果你用的是VS2010，则需要复制这两个文件：
+如果你用的是VS2010，则需要复制这两个文件： 
 * msvcp100.dll
 * msvcr100.dll
 
-如果是VS2013，则：
+如果是VS2013，则： 
 * msvcp120.dll
 * msvcr120.dll
 
@@ -421,8 +421,8 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 
 ![]({{ site.url }}/images/setup37.png)
 
-打开源码目录下的 builds 文件夹里面的 sanguosha.ts 文件：
-然后点击文件→发布。于是翻译文件 sanguosha.qm 就在 builds 文件夹里生成了。请将其复制到源码目录下。
+打开源码目录下的 builds 文件夹里面的 sanguosha.ts 文件： 
+然后点击文件→发布。于是翻译文件 sanguosha.qm 就在 builds 文件夹里生成了。请将其复制到源码目录下。 
 然后你就可以开始游戏了。
 
 ####Linux平台
