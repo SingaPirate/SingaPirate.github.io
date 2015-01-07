@@ -57,10 +57,12 @@ body {
 			@include font-rem(24);
 		}
 	}
-	.entry-author, 
 	p {
 		color: lighten($base-color,20);
 	}
+}
+.header-title .entry-author {
+	color: lighten($base-color,20);
 }
 .feature .header-title {
 	position: absolute;
@@ -98,10 +100,12 @@ body {
 			}
 		}
 	}
-	.entry-author, 
 	p {
 		color: $white;
 	}
+}
+.feature .header-title .entry-author {
+	color: $white;
 }
 .entry-image {
 	position: relative;
