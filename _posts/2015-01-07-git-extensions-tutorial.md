@@ -11,7 +11,7 @@ image:
 ---
 Git Extensions 是一个可视化的git工具，通过它，你可以轻松的管理git档案库。
 
-下载地址：http://sourceforge.net/projects/gitextensions/
+下载地址：[http://sourceforge.net/projects/gitextensions/](http://sourceforge.net/projects/gitextensions/)
 然后根据你的平台选择下载地址。
 注意，gitExtensions 的安装需要 .Net Framework 4.0 的支持。（对于 Windows 来说）
 

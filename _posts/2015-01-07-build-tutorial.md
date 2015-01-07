@@ -28,8 +28,8 @@ image:
 ###源码地址
 
 目前的源码地址有这样几个：
-太阳神三国杀-主线项目：https://github.com/MogaraOrg/QSanguosha （目前正处于开发状态）
-太阳神三国杀-国战项目：https://github.com/MogaraOrg/QSanguosha-For-Hegemony
+太阳神三国杀-主线项目：[https://github.com/MogaraOrg/QSanguosha](https://github.com/MogaraOrg/QSanguosha) （目前正处于开发状态）
+太阳神三国杀-国战项目：[https://github.com/MogaraOrg/QSanguosha-For-Hegemony](https://github.com/MogaraOrg/QSanguosha-For-Hegemony)
 你可以任选一个进行编译，当然，我们建议你选择国战，因为主线还没有彻底完成。
 注意，这些网站都是外国网站，有时候会非常慢。
 
@@ -39,12 +39,12 @@ image:
 
 目前，以 Windows 为例，我们可以用这样两种编译器可供选择：
 
-*MinGW
+* MinGW
 
 这种编译器环境配置简单，适合非开发者使用。
 这种编译器包含在 Qt 的安装包里。
 
-*MSVC
+* MSVC
 
 所谓的 MSVC 就是微软的 Visual Studio 所提供的编译器，你可以使用 VS2010 或者 VS2013 进行编译。
 
@@ -58,7 +58,7 @@ Qt 是一个运行库。因为太阳神三国杀（以下简称为神杀）使�
 
 SWIG 用于处理 Lua 的接口，是一个非常重要的工具。
 本文档使用 SWIG 的 3.0.2 版本。
-下载地址：http://sourceforge.net/projects/swig/files/swigwin/ （3.0.2版本）
+下载地址：[http://sourceforge.net/projects/swig/files/swigwin/](http://sourceforge.net/projects/swig/files/swigwin/) （3.0.2版本）
 
 ###处理源码
 
@@ -82,11 +82,9 @@ SWIG 用于处理 Lua 的接口，是一个非常重要的工具。
 
 打开一个终端在 swig 的解压目录，然后输入这样的几条命令：
 
-{% highlight %}
 ./configure --without-pcre
    make
    sudo make install
-{% endhighlight %}
 
 至此，编译前的准备工作完成。
 
@@ -98,23 +96,23 @@ SWIG 用于处理 Lua 的接口，是一个非常重要的工具。
 
 ####桌面平台
 
-*Windows
-*OS X
-*Linux
+* Windows
+* OS X
+* Linux
 
 ####移动平台
 
-*Android （开发中）
-*iOS （需要开发者帐号）
-*Window8 RT  （处于调试阶段）
-*Windows Phone （处于调试阶段）
+* Android （开发中）
+* iOS （需要开发者帐号）
+* Window8 RT  （处于调试阶段）
+* Windows Phone （处于调试阶段）
 
 选择好你需要的平台，我们开始行动。
 
 ###下载 Qt 库
 
 选择好平台后，我们需要下载Qt。
-Qt官方下载页面：http://www.qt.io/download-open-source/
+Qt官方下载页面：[http://www.qt.io/download-open-source/](http://www.qt.io/download-open-source/)
 
 ![]({{ site.url }}/images/downloads.png)
 
@@ -149,11 +147,11 @@ Qt官方下载页面：http://www.qt.io/download-open-source/
 
 如果你的开发平台是 Windows 并且你的目标平台是 Windows 或者 Android ，你可以按照你的编译器类型来选择教程。
 
-#####MinGW 编译器类 
+- MinGW 编译器类 
 
 这类教程是使用 MinGW 作为编译器的教程，在 Windows 平台来说，也就是非 MSVC 编译器……
 
-######安装Qt
+	- 安装Qt
 
 运行你下载的 QtLibrary 的安装文件，这里我们以 Android 为例：
 
@@ -198,21 +196,21 @@ Qt官方下载页面：http://www.qt.io/download-open-source/
 然后你就可以点安装了。
 在安装完之后，又一个运行 QtCreator 的选项，建议先将其去掉……然后退出安装程序即可。
 
-######安装Android SDK   Android NDK   JDK   Ant等
+	- 安装Android SDK   Android NDK   JDK   Ant等
 
 这4个东西都是编译Android平台所需要的。
 下载下来后请将其解压到一个位置。
-Android SDK ：http://wear.techbrood.com/sdk/index.html
+Android SDK ：[http://wear.techbrood.com/sdk/index.html](http://wear.techbrood.com/sdk/index.html)
 打开后先点击VIEW ALL DOWNLOADS AND SIZES，然后再选择与你匹配的版本。
-Android NDK ：http://wear.techbrood.com/tools/sdk/ndk/index.html
+Android NDK ：[http://wear.techbrood.com/tools/sdk/ndk/index.html](http://wear.techbrood.com/tools/sdk/ndk/index.html)
 直接选择与你匹配版本即可。
-JDK:http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+JDK:[http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
 首先要点击许可协议：（选择左边的那个）
 
 ![]({{ site.url }}/images/setup10.png)
 
 然后直接选择与你匹配版本即可。
-Ant：http://mirrors.hust.edu.cn/apache//ant/binaries/apache-ant-1.9.4-bin.zip
+Ant：[http://mirrors.hust.edu.cn/apache//ant/binaries/apache-ant-1.9.4-bin.zip](http://mirrors.hust.edu.cn/apache//ant/binaries/apache-ant-1.9.4-bin.zip)
 下载后解压即可。
 接下来需要配置 QtCreator 。
 运行 QtCreator ，打开工具→选项→Android：
@@ -222,12 +220,12 @@ Ant：http://mirrors.hust.edu.cn/apache//ant/binaries/apache-ant-1.9.4-bin.zip
 这里是已经配置好了的，点击浏览，参照上图选择文件夹……（这里的Android SDK放在D:\Android_Deployment\Android_SDK文件夹，NDK放在D:\Android_Deployment\Android_NDK文件夹）
 配置完成后，点击下面的OK，然后关掉QtCreator。
 
-######SWIG小插曲
+	- SWIG小插曲
 
 在确保正确配置 SWIG 的情况下，打开swig文件夹，运行其目录下的cxx-creator批处理。
 在运行完成之后，你应该会看到目录下多了一个sanguosha_wrap.cxx文件，代表这一步完成了。
 
-######运行 QtCreator
+	- 运行 QtCreator
 
 打开源码目录下的 QSanguosha.pro 文件：
 
@@ -244,7 +242,7 @@ Ant：http://mirrors.hust.edu.cn/apache//ant/binaries/apache-ant-1.9.4-bin.zip
 
 接下来，对于Windows和Android的不同平台，我们要分开叙述了……
 
-*部署在Windows平台
+#####部署在Windows平台
 
 调整左下脚![]({{ site.url }}/images/setup15.png)上方的那个电脑或者安卓按钮，将其调整为电脑的 Release 状态：
 
@@ -261,20 +259,20 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 然后你就看到构建目录了。
 打开构建目录下的 Release 文件夹，从里面找到 QSanguosha.exe，然后把其复制到源码目录下。
 先不要着急运行，从你的Qt安装目录下5.4\ mingw491_32（或者64？）\bin下找出下列几个 dll 复制到源码目录：
-*icudt53.dll
-*icuin53.dll
-*icuuc53.dll
-*libgcc_s_dw2-1.dl
-*libstdc++-6.dll
-*libwinpthread-1.dll
-*Qt5Core.dll
-*Qt5Declarative.dll
-*Qt5Gui.dll
-*Qt5Network.dll
-*Qt5Script.dll
-*Qt5Sql.dll
-*Qt5Widgets.dll
-*Qt5XmlPatterns.dll
+* icudt53.dll
+* icuin53.dll
+* icuuc53.dll
+* libgcc_s_dw2-1.dl
+* libstdc++-6.dll
+* libwinpthread-1.dll
+* Qt5Core.dll
+* Qt5Declarative.dll
+* Qt5Gui.dll
+* Qt5Network.dll
+* Qt5Script.dll
+* Qt5Sql.dll
+* Qt5Widgets.dll
+* Qt5XmlPatterns.dll
 
 然后双击运行游戏。（如果还提示缺少 dll 的话继续在 bin 目录下找就可以了）
 
@@ -290,7 +288,7 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 然后翻译文件 sanguosha.qm 就在源码目录下 build 文件夹里生成了，将其复制到源码目录即可。
 至此，Windows 平台编译过程结束。
 
-*部署在Android平台：
+#####部署在Android平台：
 
 调整左下脚![]({{ site.url }}/images/setup15.png)上方的那个电脑或者安卓按钮，将其调整为安卓的 Release 状态：
 
@@ -303,24 +301,24 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 图省略（……）
 然后将下面几个文件夹复制到你的 Android 设备的 SD 卡或者内存（即你安装的位置）下的 /Android/data/org.qsgsrara.qsanguosha 目录：
 
-*ai-selector
-*audio
-*diy
-*font
-*hero-skin
-*image
-*lang
-*lua
-*rule
-*skins
-*style-sheet
-*ui-script
+* ai-selector
+* audio
+* diy
+* font
+* hero-skin
+* image
+* lang
+* lua
+* rule
+* skins
+* style-sheet
+* ui-script
 
 如果需要的话，你可以生成翻译文件，并将 sanguosha.qm 和源码目录下的 qt_zh_CN.qm 文件一起复制到刚才的目录。
 
 至此，Android 平台的编译过程告一段落。
 
-#####MSVC类
+- MSVC类
 
 首先，确保你的 VS2010 或者 VS2013 不是所谓的体验版的（Express），否则无法进行正常的编译。
 
@@ -328,11 +326,11 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 
 你可以选择用 QtCreator 来作为编辑器，当然，如果你有自信，你也可以使用 VS 自带的编辑器。对于 QtCreator 作为编辑器的来说，你可以参考上一章的正式的编译过程。我们这里重点介绍使用 VS 自带的编辑器的编译过程。
 
-######安装Qt
+	- 安装Qt
 
 安装Qt的过程基本和使用MinGW的过程类似，你可以参考其相关章节。
 
-######安装QtVSAddIn
+	- 安装QtVSAddIn
 
 使用 VS 的编辑器必须要安装 Qt 的 VSAddIn，这里我们截取了《用 VS2010 来编译 QsgsV2》的部分内容来补充说明。
 
@@ -376,7 +374,7 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 
 然后Finish就行了。
 
-######开始编译（这里以VS2010为例）
+	- 开始编译（这里以VS2010为例）
 
 打开 builds 目录，根据你的 VS 版本打开相应的文件夹，（比如说是 VS2010 ，那就打开 VS2010 的文件夹……）然后打开里面的 Qsanguosha.sln……
 
@@ -393,25 +391,25 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 
 打开源码目录下的 Bin 文件夹，将生成的 QSanguosha.exe 复制到源码目录下。
 别着急运行，我们还需要复制这样几个 dll：（从 Qt 的安装目录下 5.4/msvc**/bin 中）
-*icudt53.dll
-*icuin53.dll
-*icuuc53.dll
-*Qt5Core.dll
-*Qt5Declarative.dll
-*Qt5Gui.dll
-*Qt5Network.dll
-*Qt5Script.dll
-*Qt5Sql.dll
-*Qt5Widgets.dll
-*Qt5XmlPatterns.dll
+* icudt53.dll
+* icuin53.dll
+* icuuc53.dll
+* Qt5Core.dll
+* Qt5Declarative.dll
+* Qt5Gui.dll
+* Qt5Network.dll
+* Qt5Script.dll
+* Qt5Sql.dll
+* Qt5Widgets.dll
+* Qt5XmlPatterns.dll
 
 如果你用的是VS2010，则需要复制这两个文件：
-*msvcp100.dll
-*msvcr100.dll
+* msvcp100.dll
+* msvcr100.dll
 
 如果是VS2013，则：
-*msvcp120.dll
-*msvcr120.dll
+* msvcp120.dll
+* msvcr120.dll
 
 然后就可以运行了。如果提示缺少什么文件的话，继续到刚才的目录里面找……
 
