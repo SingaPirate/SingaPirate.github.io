@@ -63,14 +63,14 @@ SWIG 用于处理 Lua 的接口，是一个非常重要的工具。
 ###处理源码
 
 你可以选择上面源码地址中的一个进行下载。打开连接后，在网页的右边又一个 Download Zip 的按钮，点击一下，源码就会以Zip的压缩文件的形式下载下来。
-**明显强调：这不是单一的下载源码的方法，你也可以使用git Extensions来下载源码。相对于 Download Zip而言，使用git可以随时检查源码的更新状态。
+**明显强调：这不是单一的下载源码的方法，你也可以使用git Extensions来下载源码。相对于 Download Zip而言，使用git可以随时检查源码的更新状态。[点击进入]({{ site.url }}/git-extensions-tutorial)git Extensions的使用方法介绍页。**
 下载完源码之后，解压开，（如果你使用git Extensions就不必解压）你会得到这样的一个文件夹：（以国战为例）
 
 ![]({{ site.url }}/images/hegemony.png)
 
 ####Windows 或 Android
 
-打开之，然后在里面创建一个tools文件夹，然后把你下载的swig解压开，将文件放进去，经过适当的改名之后，要确保 tools\swig\swig.exe存在：
+打开之，然后在里面创建一个 tools 文件夹，然后把你下载的 swig 解压开，将文件放进去，经过适当的改名之后，要确保 tools\swig\swig.exe 存在：
 
 ![]({{ site.url }}/images/path.png)
 
@@ -80,13 +80,9 @@ SWIG 用于处理 Lua 的接口，是一个非常重要的工具。
 
 ####OS X 或 Linux
 
-打开一个终端在swig的解压目录，然后输入这样的几条命令：
+打开一个终端在 swig 的解压目录，然后输入这样的几条命令：
 
-{% highlight shell %}
-./configure --without-pcre
-   make
-   sudo make install
-{% endhighlight %}
+
 
 至此，编译前的准备工作完成。
 
