@@ -16,15 +16,4 @@
 </script>
 {% endif %}
 
-<!-- Baidu statistics -->
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?3d67bac239f174d29b957c4f9bfe5588"
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-
 {% if page.comments != false %}{% include disqus_comments.html %}{% endif %}

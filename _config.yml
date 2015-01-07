@@ -34,8 +34,6 @@ google_analytics:
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
-# Baidu Statistics
-baidu_analytics:  3d67bac239f174d29b957c4f9bfe5588
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Shanghai
