@@ -82,7 +82,11 @@ SWIG 用于处理 Lua 的接口，是一个非常重要的工具。
 
 打开一个终端在 swig 的解压目录，然后输入这样的几条命令：
 
-
+{% highlight %}
+./configure --without-pcre
+   make
+   sudo make install
+{% endhighlight %}
 
 至此，编译前的准备工作完成。
 
