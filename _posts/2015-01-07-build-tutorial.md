@@ -195,7 +195,7 @@ Qt官方下载页面：[http://www.qt.io/download-open-source/](http://www.qt.io
 ![]({{ site.url }}/images/setup9.png)
 
 然后你就可以点安装了。  
-在安装完之后，又一个运行 QtCreator 的选项，建议先将其去掉……然后退出安装程序即可。
+在安装完之后，有一个运行 QtCreator 的选项，建议先将其去掉……然后退出安装程序即可。
 
 	2. 安装Android SDK   Android NDK   JDK   Ant等
 
