@@ -11,7 +11,7 @@ modified: 2014-01-07
 
 Mogara是一个中文自由软件组织，目前负责维护开源桌面游戏太阳神三国杀，坚信开源和自由软件的力量可以影响世界。
 
-作品：
+#作品：
 
 ## 太阳神三国杀(QSanguosha)
 
@@ -24,5 +24,9 @@ Mogara是一个中文自由软件组织，目前负责维护开源桌面游戏�
 * 使用 fmodex 进行音频解码及音效输出
 * 官方新武将会在第一时间更新
 * 按照官方流程及时更新游戏的流程，即使规则变化再快，也能第一时间体验
+
+#成员：
+
+* [数字]({{ site.url }}/about/数字)
 
 <div markdown="0"><a href="https://github.com/MogaraOrg/QSanguosha/tree/dev" class="btn btn-info">项目主页</a> <a href="https://github.com/MogaraOrg/QSanguosha/archive/master.zip" class="btn btn-success">下载源码</a></div>
