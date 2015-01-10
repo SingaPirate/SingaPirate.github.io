@@ -11,17 +11,17 @@ image:
 
 #Bugs Fixed:
 
-* [AI贾诩对自己使用黑色【挟天子以令诸侯】](http://tieba.baidu.com/p/3439569041 23楼)
+* [AI贾诩对自己使用黑色【挟天子以令诸侯】](http://tieba.baidu.com/p/3439569041)
 
 * AI有时会对自己使用得【无懈可击】使用【无懈可击】
   
 * AI魏延暗置时不会发动【狂骨】
 
-* [AI暗将贾诩1体力时不亮将以避免成为黑色【南蛮入侵】的目标](http://tieba.baidu.com/p/3439569041 13楼)
+* [AI暗将贾诩1体力时不亮将以避免成为黑色【南蛮入侵】的目标](http://tieba.baidu.com/p/3439569041)
   
-* [AI对同一角色连续使用多次【知己知彼】观看手牌效果](http://tieba.baidu.com/p/3439569041 13楼)
+* [AI对同一角色连续使用多次【知己知彼】观看手牌效果](http://tieba.baidu.com/p/3439569041)
   
-* [AI蒋钦没有手牌也能发动【尚义】](http://tieba.baidu.com/p/3439569041 15楼)
+* [AI蒋钦没有手牌也能发动【尚义】](http://tieba.baidu.com/p/3439569041)
   
 * AI被【挑衅】或【借刀杀人】时，不会发动【方天画戟】效果
   
@@ -49,7 +49,7 @@ image:
   
 * [录像回放中技能预亮后潜伏不消失](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/272)
   
-* [只有第一个换皮肤的武将的相应皮肤有效](http://tieba.baidu.com/p/3439569041 5楼)
+* [只有第一个换皮肤的武将的相应皮肤有效](http://tieba.baidu.com/p/3439569041)
   
 * 发动【八阵】不播放技能配音
   
@@ -59,11 +59,11 @@ image:
   
 * "不播放技能音效"选项影响背景音乐的播放
   
-* [最小化托盘只能使用一次](http://tieba.baidu.com/p/2357497936 4楼第一个回复)
+* [最小化托盘只能使用一次](http://tieba.baidu.com/p/2357497936)
   
 * 禁止IP对话框中，部分玩家断开连接后，仍显示连接
   
-* [孟获明置在场时，不为【南蛮入侵】的伤害来源](http://tieba.baidu.com/p/3439569041 8楼)
+* [孟获明置在场时，不为【南蛮入侵】的伤害来源](http://tieba.baidu.com/p/3439569041)
   
 #API Changes：
 
@@ -91,7 +91,7 @@ image:
   
 * 优化【联军盛宴】相关的【无懈可击】AI使用策略
   
-* [AI身份比较明显时，被【敕令】询问时不再弃置装备牌](http://tieba.baidu.com/p/3439569041 8楼)
+* [AI身份比较明显时，被【敕令】询问时不再弃置装备牌](http://tieba.baidu.com/p/3439569041)
   
 * [优化AI身份判断](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/258)
   
@@ -111,13 +111,13 @@ image:
   
 * 缩短询问技能发动顺序中技能按钮的长度
   
-* [优化花色选择对话框](http://tieba.baidu.com/p/3399890782?pn=4 118楼)
+* [优化花色选择对话框](http://tieba.baidu.com/p/3399890782?pn=4)
   
-* [手牌过多分两行显示时，上移倒计时条，防止被挡住](http://tieba.baidu.com/p/3439569041?pn=2 32楼)
+* [手牌过多分两行显示时，上移倒计时条，防止被挡住](http://tieba.baidu.com/p/3439569041?pn=2)
   
 * 优化【帷幕】关于【敕令】的亮将AI策略
   
-* [优化【狂骨】AI策略](http://tieba.baidu.com/p/3439569041 8楼)
+* [优化【狂骨】AI策略](http://tieba.baidu.com/p/3439569041)
   
 * 优化平局对话框的样式
   
