@@ -25,29 +25,29 @@ image:
   
 * AI被【挑衅】或【借刀杀人】时，不会发动【方天画戟】效果
   
-* [AI黄盖即使弃牌阶段弃掉【桃】也不发动【苦肉】](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/258)
+* [AI黄盖即使弃牌阶段弃掉【桃】也不发动【苦肉】](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/258)
   
-* [敌对张角在场时，AI在不恰当的时机发动【八卦阵】进行判定](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/258)
+* [敌对张角在场时，AI在不恰当的时机发动【八卦阵】进行判定](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/258)
   
-* [AI不会使用【木牛流马】里的牌](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/258)
+* [AI不会使用【木牛流马】里的牌](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/258)
   
-* [AI华佗用装有很多红牌的【木牛流马】发动【急救】](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/258)
+* [AI华佗用装有很多红牌的【木牛流马】发动【急救】](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/258)
   
-* [AI有时不会发动【挑衅】](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/258)
+* [AI有时不会发动【挑衅】](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/258)
   
-* [AI反复对装备【八卦阵】的甄姬/郭嘉使用【杀】](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/258)
+* [AI反复对装备【八卦阵】的甄姬/郭嘉使用【杀】](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/258)
   
-* [AI对被【调虎离山】移出游戏的角色使用【远交近攻】](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/258)
+* [AI对被【调虎离山】移出游戏的角色使用【远交近攻】](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/258)
   
-* [同一角色被【断肠】两次时，第一次失去的技能会恢复](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/279)
+* [同一角色被【断肠】两次时，第一次失去的技能会恢复](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/279)
   
-* [对双暗的角色使用【断肠】，无论选什么，只能失去主将技能](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/270)
+* [对双暗的角色使用【断肠】，无论选什么，只能失去主将技能](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/270)
   
-* [【戮力同心】的目标错误](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/274)
+* [【戮力同心】的目标错误](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/274)
   
-* [【方天画戟】不能指定野心家为目标](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/275)
+* [【方天画戟】不能指定野心家为目标](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/275)
   
-* [录像回放中技能预亮后潜伏不消失](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/272)
+* [录像回放中技能预亮后潜伏不消失](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/272)
   
 * [只有第一个换皮肤的武将的相应皮肤有效](http://tieba.baidu.com/p/3439569041)
   
@@ -93,17 +93,17 @@ image:
   
 * [AI身份比较明显时，被【敕令】询问时不再弃置装备牌](http://tieba.baidu.com/p/3439569041)
   
-* [优化AI身份判断](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/258)
+* [优化AI身份判断](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/258)
   
-* [优化【联军盛宴】的AI使用策略](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/258)
+* [优化【联军盛宴】的AI使用策略](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/258)
   
-* [优化【水淹七军】的AI使用策略](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/258)
+* [优化【水淹七军】的AI使用策略](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/258)
   
-* [优化针对【流离】的【杀】的AI使用策略](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/258)
+* [优化针对【流离】的【杀】的AI使用策略](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/258)
   
-* [优化【神速】的AI使用策略](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/258)
+* [优化【神速】的AI使用策略](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/258)
   
-* [支持在游戏中调整背景音乐音量，所有选项在点击“取消”后自动复原](https://github.com/MogaraOrg/QSanguosha-For-Hegemony/issues/278)
+* [支持在游戏中调整背景音乐音量，所有选项在点击“取消”后自动复原](https://github.com/Mogara/QSanguosha-For-Hegemony/issues/278)
   
 * [重写往期的更新内容](http://tieba.baidu.com/p/3450767214)
   

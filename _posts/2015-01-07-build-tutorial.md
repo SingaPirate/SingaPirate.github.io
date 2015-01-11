@@ -29,8 +29,8 @@ author: 数字
 ###源码地址
 
 目前的源码地址有这样几个：  
-太阳神三国杀-主线项目：[https://github.com/MogaraOrg/QSanguosha](https://github.com/MogaraOrg/QSanguosha) （目前正处于开发状态）  
-太阳神三国杀-国战项目：[https://github.com/MogaraOrg/QSanguosha-For-Hegemony](https://github.com/MogaraOrg/QSanguosha-For-Hegemony)  
+太阳神三国杀-主线项目：[https://github.com/Mogara/QSanguosha](https://github.com/Mogara/QSanguosha) （目前正处于开发状态）  
+太阳神三国杀-国战项目：[https://github.com/Mogara/QSanguosha-For-Hegemony](https://github.com/Mogara/QSanguosha-For-Hegemony)  
 你可以任选一个进行编译，当然，我们建议你选择国战，因为主线还没有彻底完成。  
 注意，这些网站都是外国网站，有时候会非常慢。 
 

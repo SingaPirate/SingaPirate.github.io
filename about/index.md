@@ -29,4 +29,4 @@ Mogara是一个中文自由软件组织，目前负责维护开源桌面游戏�
 
 * [数字]({{ site.url }}/about/数字)
 
-<div markdown="0"><a href="https://github.com/MogaraOrg/QSanguosha/tree/dev" class="btn btn-info">项目主页</a> <a href="https://github.com/MogaraOrg/QSanguosha/archive/master.zip" class="btn btn-success">下载源码</a></div>
+<div markdown="0"><a href="https://github.com/Mogara/QSanguosha" class="btn btn-info">项目主页</a> <a href="https://github.com/Mogara/QSanguosha/archive/master.zip" class="btn btn-success">下载源码</a></div>
