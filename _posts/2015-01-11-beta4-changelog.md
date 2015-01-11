@@ -79,9 +79,9 @@ image:
   
 * 开放Lua读取ServerInfo的接口
   
-* [升级Qt库支持至最新](5.4.0)
+* 升级Qt库支持至最新(5.4.0)
   
-* [更新freetype至2.5.4，增加debug版库](OSX及Linux使用静态库)
+* 更新freetype至2.5.4，增加debug版库(OSX及Linux使用静态库)
   
 * 更新fmodex至4.4.49
   
