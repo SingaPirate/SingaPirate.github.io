@@ -4,7 +4,7 @@ title: 太阳神三国杀构建指南
 description: "构建指南"
 tags: [项目文档]
 image:
-  background: triangular.png
+  background: triangular.jpg
   feature: abstract-4.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
@@ -67,17 +67,17 @@ SWIG 用于处理 Lua 的接口，是一个非常重要的工具。
 **明显强调：这不是单一的下载源码的方法，你也可以使用git Extensions来下载源码。相对于 Download Zip而言，使用git可以随时检查源码的更新状态。[（git Extensions的使用方法介绍页）]({{ site.url }}/git-extensions-tutorial)git Extensions的使用方法介绍页。**  
 下载完源码之后，解压开，（如果你使用git Extensions就不必解压）你会得到这样的一个文件夹：（以国战为例）
 
-![]({{ site.url }}/images/hegemony.png)
+![]({{ site.url }}/images/hegemony.jpg)
 
 ####Windows 或 Android
 
 打开之，然后在里面创建一个 tools 文件夹，然后把你下载的 swig 解压开，将文件放进去，经过适当的改名之后，要确保 tools\swig\swig.exe 存在：
 
-![]({{ site.url }}/images/path.png)
+![]({{ site.url }}/images/path.jpg)
 
 这个目录下，确保图示文件在正确的位置
 
-![]({{ site.url }}/images/swig.png)
+![]({{ site.url }}/images/swig.jpg)
 
 ####OS X 或 Linux
 
@@ -115,30 +115,30 @@ SWIG 用于处理 Lua 的接口，是一个非常重要的工具。
 选择好平台后，我们需要下载Qt。  
 Qt官方下载页面：[http://www.qt.io/download-open-source/](http://www.qt.io/download-open-source/)
 
-![]({{ site.url }}/images/downloads.png)
+![]({{ site.url }}/images/downloads.jpg)
 
 打开 View All Downloads：  
 然后根据你的平台选择响应的安装包。比如说如果你是 Win64+VS2013，则应该选择
 
-![]({{ site.url }}/images/win64vs13.png)
+![]({{ site.url }}/images/win64vs13.jpg)
 
 这两个中的一个，其余的以此类推。  
 注意：  
 1.如果你希望同时编译 Windows 和 Android 版本，你应该选择 Android 版本，
 
-![]({{ site.url }}/images/android.png)
+![]({{ site.url }}/images/android.jpg)
 
 这种情况同时也发生在 OS X 和 iOS（或者Android或者二者都有）
 
-![]({{ site.url }}/images/osx.png)
+![]({{ site.url }}/images/osx.jpg)
 
 以及 Linux 和 Android 上。
 
-![]({{ site.url }}/images/linux-android.png)
+![]({{ site.url }}/images/linux-android.jpg)
 
 **2.如果你使用的是 MSVC 类的编译器并且你是一位开发者，还需要下载下面的 QtVSAddIn 的插件。**
 
-![]({{ site.url }}/images/addin.png)
+![]({{ site.url }}/images/addin.jpg)
 
 ###构建
 
@@ -156,43 +156,43 @@ Qt官方下载页面：[http://www.qt.io/download-open-source/](http://www.qt.io
 
 运行你下载的 QtLibrary 的安装文件，这里我们以 Android 为例：
 
-![]({{ site.url }}/images/x86android.png)
+![]({{ site.url }}/images/x86android.jpg)
 
 运行之，应该会有这样的界面：
 
-![]({{ site.url }}/images/setup1.png)
+![]({{ site.url }}/images/setup1.jpg)
 
 然后下一步：
 
-![]({{ site.url }}/images/setup2.png)
+![]({{ site.url }}/images/setup2.jpg)
 
 这里的安装目录你可以改一改，因为放在C盘实在是太坑爹了……  
 选好目录后，点下一步：
 
-![]({{ site.url }}/images/setup3.png)
+![]({{ site.url }}/images/setup3.jpg)
 
 对于只想编译 Windows 版的可以直接点下一步。  
 而对于 Android 版的来说，则需要稍微配置一下，点开 Qt5.4 这一项前面的小三角：
 
-![]({{ site.url }}/images/setup4.png)
+![]({{ site.url }}/images/setup4.jpg)
 
-首先，![]({{ site.url }}/images/setup5.png) 这一项是必要的。而
+首先，![]({{ site.url }}/images/setup5.jpg) 这一项是必要的。而
 
-![]({{ site.url }}/images/setup6.png)
+![]({{ site.url }}/images/setup6.jpg)
 
 这三项，则需要根据你的 Android 设备的 CPU 型号来决定了。具体地，你可以到网络上查询你的 Android 设备的型号，再查询其 CPU 型号，看看相关的信息。  
 最后一项 Source Components 是源码，可以不装。当然，装了基本没用……  
 选择好了以后，你就可以下一步了。
 
-![]({{ site.url }}/images/setup7.png)
+![]({{ site.url }}/images/setup7.jpg)
 
 这个也就不用说了，当然得同意吧，然后下一步：
 
-![]({{ site.url }}/images/setup8.png)
+![]({{ site.url }}/images/setup8.jpg)
 
 下一步……
 
-![]({{ site.url }}/images/setup9.png)
+![]({{ site.url }}/images/setup9.jpg)
 
 然后你就可以点安装了。  
 在安装完之后，有一个运行 QtCreator 的选项，建议先将其去掉……然后退出安装程序即可。
@@ -208,7 +208,7 @@ Android NDK ：[http://wear.techbrood.com/tools/sdk/ndk/index.html](http://wear.
 JDK:[http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)  
 首先要点击许可协议：（选择左边的那个） 
 
-![]({{ site.url }}/images/setup10.png)
+![]({{ site.url }}/images/setup10.jpg)
 
 然后直接选择与你匹配版本即可。  
 Ant：[http://mirrors.hust.edu.cn/apache//ant/binaries/apache-ant-1.9.4-bin.zip](http://mirrors.hust.edu.cn/apache//ant/binaries/apache-ant-1.9.4-bin.zip)  
@@ -216,7 +216,7 @@ Ant：[http://mirrors.hust.edu.cn/apache//ant/binaries/apache-ant-1.9.4-bin.zip]
 接下来需要配置 QtCreator 。  
 运行 QtCreator ，打开工具→选项→Android：
 
-![]({{ site.url }}/images/setup11.png)
+![]({{ site.url }}/images/setup11.jpg)
 
 这里是已经配置好了的，点击浏览，参照上图选择文件夹……（这里的Android SDK放在D:\Android_Deployment\Android_SDK文件夹，NDK放在D:\Android_Deployment\Android_NDK 文件夹）  
 配置完成后，点击下面的OK，然后关掉QtCreator。 
@@ -230,32 +230,32 @@ Ant：[http://mirrors.hust.edu.cn/apache//ant/binaries/apache-ant-1.9.4-bin.zip]
 
 打开源码目录下的 QSanguosha.pro 文件：
 
-![]({{ site.url }}/images/setup12.png)
+![]({{ site.url }}/images/setup12.jpg)
 
 打开后 QtCreator 会提示你配置项目：
 
-![]({{ site.url }}/images/setup13.png)
+![]({{ site.url }}/images/setup13.jpg)
 
 选择你需要的编译目标。第一个电脑形状的就是 Windows 平台的，其他的是 Android 平台。（你可能没有这么多的选项，当然，选择你需要的就行了……）  
 在配置完成后，会出现这样的界面：
 
-![]({{ site.url }}/images/setup14.png)
+![]({{ site.url }}/images/setup14.jpg)
 
 接下来，对于Windows和Android的不同平台，我们要分开叙述了……
 
 #####部署在Windows平台
 
-调整左下脚![]({{ site.url }}/images/setup15.png)上方的那个电脑或者安卓按钮，将其调整为电脑的 Release 状态：
+调整左下脚![]({{ site.url }}/images/setup15.jpg)上方的那个电脑或者安卓按钮，将其调整为电脑的 Release 状态：
 
-![]({{ site.url }}/images/setup16.png)
+![]({{ site.url }}/images/setup16.jpg)
 
-然后等QtCreator分析一会，就可以点那个锤子![]({{ site.url }}/images/setup17.png)了，然后它就会自己编译。  
+然后等QtCreator分析一会，就可以点那个锤子![]({{ site.url }}/images/setup17.jpg)了，然后它就会自己编译。  
 正常情况下编译是不会有错误的，如果有错误，请及时到项目主页反馈给开发组。
 
 等它编译完之后，转到生成目录：  
 Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目，点构建和运行，应该是个这样的界面：
 
-![]({{ site.url }}/images/setup18.png)
+![]({{ site.url }}/images/setup18.jpg)
 
 然后你就看到构建目录了。  
 打开构建目录下的 Release 文件夹，从里面找到 QSanguosha.exe，然后把其复制到源码目录下。  
@@ -278,25 +278,25 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 
 然后双击运行游戏。（如果还提示缺少 dll 的话继续在 bin 目录下找就可以了）
 
-![]({{ site.url }}/images/setup19.png)
+![]({{ site.url }}/images/setup19.jpg)
 
 至此，编译过程完成了。
 
 当然，如果一直玩英文版的肯定是不爽啊，我们需要用 Qt 来生成翻译文件。  
 点击上面的工具→外部→Qt语言家→发布翻译：
 
-![]({{ site.url }}/images/setup20.png)
+![]({{ site.url }}/images/setup20.jpg)
 
 然后翻译文件 sanguosha.qm 就在源码目录下 build 文件夹里生成了，将其复制到源码目录即可。   
 至此，Windows 平台编译过程结束。
 
 #####部署在Android平台：
 
-调整左下脚![]({{ site.url }}/images/setup15.png)上方的那个电脑或者安卓按钮，将其调整为安卓的 Release 状态：
+调整左下脚![]({{ site.url }}/images/setup15.jpg)上方的那个电脑或者安卓按钮，将其调整为安卓的 Release 状态：
 
-![]({{ site.url }}/images/setup21.png)
+![]({{ site.url }}/images/setup21.jpg)
 
-然后等QtCreator分析一会，就可以点那个锤子![]({{ site.url }}/images/setup17.png)了，然后它就会自己编译。
+然后等QtCreator分析一会，就可以点那个锤子![]({{ site.url }}/images/setup17.jpg)了，然后它就会自己编译。
 
 正常情况下编译是不会有错误的，如果有错误，请及时到项目主页反馈给开发组。  
 在它编译完成后，转到生成目录下的 android-build\bin 文件夹，找到里面的 QtApp-debug.apk ，将其安装到你的Android设备上。  
@@ -338,41 +338,41 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 
 下载完成后，你应该会看到这样的文件。（其实，相应的版本应该不是这个，这个是为 Qt4 服务的，所以就将就着看吧……）
 
-![]({{ site.url }}/images/setup22.png)
+![]({{ site.url }}/images/setup22.jpg)
 
 打开它，  
 （解压数据的部分略过）
 
-![]({{ site.url }}/images/setup23.png)
+![]({{ site.url }}/images/setup23.jpg)
 
 还是老套路，Next
 
-![]({{ site.url }}/images/setup24.png)
+![]({{ site.url }}/images/setup24.jpg)
 
 还是老套路同意并Next
 
-![]({{ site.url }}/images/setup25.png)
+![]({{ site.url }}/images/setup25.jpg)
 
 对于这一步，鸟语不好的人可以直接Next了（比如笔者）
 
-![]({{ site.url }}/images/setup26.png)
+![]({{ site.url }}/images/setup26.jpg)
 
 安装目录？还是老话，找个瞅着顺眼的地方装
 
-![]({{ site.url }}/images/setup27.png)
+![]({{ site.url }}/images/setup27.jpg)
 
 然后就可以点 Install 了  
 安装步骤，点 Show details 可以显示详情。
 
-![]({{ site.url }}/images/setup28.png)
+![]({{ site.url }}/images/setup28.jpg)
 
 这个过程比较短……
 
-![]({{ site.url }}/images/setup29.png)
+![]({{ site.url }}/images/setup29.jpg)
 
 安装完了，点Next
 
-![]({{ site.url }}/images/setup30.png)
+![]({{ site.url }}/images/setup30.jpg)
 
 然后Finish就行了。
 
@@ -380,16 +380,16 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 
 打开 builds 目录，根据你的 VS 版本打开相应的文件夹，（比如说是 VS2010 ，那就打开 VS2010 的文件夹……）然后打开里面的 Qsanguosha.sln……
 
-![]({{ site.url }}/images/setup31.png)这是VS2010的，当然VS2013应该也差不多……
+![]({{ site.url }}/images/setup31.jpg)这是VS2010的，当然VS2013应该也差不多……
 
-打开后，把上方的生成方案由![]({{ site.url }}/images/setup32.png)转换为![]({{ site.url }}/images/setup33.png)  
+打开后，把上方的生成方案由![]({{ site.url }}/images/setup32.jpg)转换为![]({{ site.url }}/images/setup33.jpg)  
 然后就可以直接 Ctrl+Shift+B 编译了。
 
-![]({{ site.url }}/images/setup34.png)
+![]({{ site.url }}/images/setup34.jpg)
 
 在编译过程中应该是不会出现问题的。如果出现了 Qt 库没有找到的问题，请检查 QT5→QtOptions 中 Qt 的目录设置。在编译完成后：
 
-![]({{ site.url }}/images/setup35.png)
+![]({{ site.url }}/images/setup35.jpg)
 
 打开源码目录下的 Bin 文件夹，将生成的 QSanguosha.exe 复制到源码目录下。  
 别着急运行，我们还需要复制这样几个 dll：（从 Qt 的安装目录下 5.4/msvc**/bin 中） 
@@ -420,11 +420,11 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 
 找到最上面的 QT5 的菜单，点击 Launch Linguist：
 
-![]({{ site.url }}/images/setup36.png)
+![]({{ site.url }}/images/setup36.jpg)
 
 应该会弹出一个 Qt 语言家，然后点击文件→打开……
 
-![]({{ site.url }}/images/setup37.png)
+![]({{ site.url }}/images/setup37.jpg)
 
 打开源码目录下的 builds 文件夹里面的 sanguosha.ts 文件：  
 然后点击文件→发布。于是翻译文件 sanguosha.qm 就在 builds 文件夹里生成了。请将其复制到源码目录下。  
