@@ -14,7 +14,7 @@
 
 {% if page.image.feature %}
 <div class="entry-header">
-  {% if page.image.credit %}<div class="image-credit">鍥剧墖鏉ユ簮: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
+  {% if page.image.credit %}<div class="image-credit">图片来源: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
   <div class="entry-image">
     <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
   </div><!-- /.entry-image -->
@@ -30,7 +30,7 @@
         <p class="entry-reading-time">
           <i class="fa fa-clock-o"></i>
           {% assign readtime = content | number_of_words | divided_by:site.words_per_minute %}
-          闃呰鏃堕棿 绾% if readtime <= 1 %} 1 鍒嗛挓{% else %} {{ readtime }} 鍒嗛挓{% endif %}
+          阅读时间 约{% if readtime <= 1 %} 1 分钟{% else %} {{ readtime }} 分钟{% endif %}
         </p><!-- /.entry-reading-time -->
         {% endif %}
       </div><!-- /.header-title-wrap -->

@@ -1,8 +1,8 @@
 ---
 layout: post-index
-title: Mogaraå¼€å‘è€…åšå®¢
-description: "å¤ªé˜³ç¥ä¸‰å›½æ€å¼€å‘å›¢é˜ŸMogaraçš„åšå®¢"
-tags: [å¤ªé˜³ç¥ä¸Š, å¤ªé˜³ç¥ä¸‰å›½æ€, å•¦å•¦SLG, ç¥æ€, è‡ªç”±è½¯ä»¶, ä¸‰å›½æ€, è™«å¦¹]
+title: Mogara¿ª·¢Õß²©¿Í
+description: "Ì«ÑôÉñÈı¹úÉ±¿ª·¢ÍÅ¶ÓMogaraµÄ²©¿Í"
+tags: [Ì«ÑôÉñÉÏ, Ì«ÑôÉñÈı¹úÉ±, À²À²SLG, ÉñÉ±, ×ÔÓÉÈí¼ş, Èı¹úÉ±, ³æÃÃ]
 comments: false
 image:
   feature: abstract-1.jpg
@@ -22,16 +22,16 @@ image:
       <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span>
 	  
 	  {% if post.author %}
-	  <span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/{{ post.author }}" title="å…³äº {{ post.author }}">{{ post.author }}</a></span></span>
+	  <span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/{{ post.author }}" title="¹ØÓÚ {{ post.author }}">{{ post.author }}</a></span></span>
 	  {% else %}
-	  <span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="å…³äº {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
+	  <span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="¹ØÓÚ {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
 	  {% endif %}
 	  
       {% if site.reading_time %}
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
         {% assign readtime = post.content | number_of_words | divided_by:site.words_per_minute %}
-        é˜…è¯»æ—¶é—´ çº¦{% if readtime <= 1 %} 1 åˆ†é’Ÿ{% else %} {{ readtime }} åˆ†é’Ÿ{% endif %}
+        ÔÄ¶ÁÊ±¼ä Ô¼{% if readtime <= 1 %} 1 ·ÖÖÓ{% else %} {{ readtime }} ·ÖÖÓ{% endif %}
       </span><!-- /.entry-reading-time -->
       {% endif %}
     </div><!-- /.entry-meta -->
