@@ -9,25 +9,25 @@ comments: false
 modified: 2014-01-07
 ---
 
-MogaraÊÇÒ»¸öÖÐÎÄ×ÔÓÉÈí¼þ×éÖ¯£¬Ä¿Ç°¸ºÔðÎ¬»¤¿ªÔ´×ÀÃæÓÎÏ·Ì«ÑôÉñÈý¹úÉ±£¬¼áÐÅ¿ªÔ´ºÍ×ÔÓÉÈí¼þµÄÁ¦Á¿¿ÉÒÔÓ°ÏìÊÀ½ç¡£
+Mogaraæ˜¯ä¸€ä¸ªä¸­æ–‡è‡ªç”±è½¯ä»¶ç»„ç»‡ï¼Œç›®å‰è´Ÿè´£ç»´æŠ¤å¼€æºæ¡Œé¢æ¸¸æˆå¤ªé˜³ç¥žä¸‰å›½æ€ï¼Œåšä¿¡å¼€æºå’Œè‡ªç”±è½¯ä»¶çš„åŠ›é‡å¯ä»¥å½±å“ä¸–ç•Œã€‚
 
-#×÷Æ·£º
+#ä½œå“ï¼š
 
-## Ì«ÑôÉñÈý¹úÉ±(QSanguosha)
+## å¤ªé˜³ç¥žä¸‰å›½æ€(QSanguosha)
 
-* »ùÓÚ Qt5£¬GPLv3 Ð­Òé
-* ¿ÉÊ¹ÓÃ TCP Ð­Òé½øÐÐÁª»ú¶ÔÕ½
-* ÍêÃÀÖ§³Ö Windows¡¢Linux¡¢OS X µÈ×ÀÃæÆ½Ì¨£¬iOS ¼° Android °æ±¾µÄ±íÏÖÕýÔÚ¸Ä½øÖÐ
-* Ê¹ÓÃ Lua ½Å±¾½øÐÐ AI Ä£¿éµÄ±àÐ´£¬Ö§³ÖÊ¹ÓÃ Lua DIY ÐÂµÄÎä½«¡¢ÓÎÏ·ÅÆ²¢¼ÓÈëÓÎÏ·
-* ÄÚÖÃ¿¨ÅÆ±à¼­Æ÷£¬¿ÉÒÔÖÆ×÷Èý¹úÉ±Îä½«¿¨ÅÆ
-* Ê¹ÓÃ freetype ½øÐÐ×ÖÌåäÖÈ¾£¬±£Ö¤ÔÚÒ»Ð©ÄÚÖÃ×ÖÌåäÖÈ¾ÒýÇæ±íÏÖÁ¦²»×ãµÄÆ½Ì¨ÉÏÓÐ¸üºÃµÄ×ÖÌåÍâ¹Û
-* Ê¹ÓÃ fmodex ½øÐÐÒôÆµ½âÂë¼°ÒôÐ§Êä³ö
-* ¹Ù·½ÐÂÎä½«»áÔÚµÚÒ»Ê±¼ä¸üÐÂ
-* °´ÕÕ¹Ù·½Á÷³Ì¼°Ê±¸üÐÂÓÎÏ·µÄÁ÷³Ì£¬¼´Ê¹¹æÔò±ä»¯ÔÙ¿ì£¬Ò²ÄÜµÚÒ»Ê±¼äÌåÑé
+* åŸºäºŽ Qt5ï¼ŒGPLv3 åè®®
+* å¯ä½¿ç”¨ TCP åè®®è¿›è¡Œè”æœºå¯¹æˆ˜
+* å®Œç¾Žæ”¯æŒ Windowsã€Linuxã€OS X ç­‰æ¡Œé¢å¹³å°ï¼ŒiOS åŠ Android ç‰ˆæœ¬çš„è¡¨çŽ°æ­£åœ¨æ”¹è¿›ä¸­
+* ä½¿ç”¨ Lua è„šæœ¬è¿›è¡Œ AI æ¨¡å—çš„ç¼–å†™ï¼Œæ”¯æŒä½¿ç”¨ Lua DIY æ–°çš„æ­¦å°†ã€æ¸¸æˆç‰Œå¹¶åŠ å…¥æ¸¸æˆ
+* å†…ç½®å¡ç‰Œç¼–è¾‘å™¨ï¼Œå¯ä»¥åˆ¶ä½œä¸‰å›½æ€æ­¦å°†å¡ç‰Œ
+* ä½¿ç”¨ freetype è¿›è¡Œå­—ä½“æ¸²æŸ“ï¼Œä¿è¯åœ¨ä¸€äº›å†…ç½®å­—ä½“æ¸²æŸ“å¼•æ“Žè¡¨çŽ°åŠ›ä¸è¶³çš„å¹³å°ä¸Šæœ‰æ›´å¥½çš„å­—ä½“å¤–è§‚
+* ä½¿ç”¨ fmodex è¿›è¡ŒéŸ³é¢‘è§£ç åŠéŸ³æ•ˆè¾“å‡º
+* å®˜æ–¹æ–°æ­¦å°†ä¼šåœ¨ç¬¬ä¸€æ—¶é—´æ›´æ–°
+* æŒ‰ç…§å®˜æ–¹æµç¨‹åŠæ—¶æ›´æ–°æ¸¸æˆçš„æµç¨‹ï¼Œå³ä½¿è§„åˆ™å˜åŒ–å†å¿«ï¼Œä¹Ÿèƒ½ç¬¬ä¸€æ—¶é—´ä½“éªŒ
 
-#³ÉÔ±£º
+#æˆå‘˜ï¼š
 
-* [Êý×Ö]({{ site.url }}/about/Êý×Ö)  
-* [¶£ßË]({{ site.url }}/about/¶£ßË)
+* [æ•°å­—]({{ site.url }}/about/æ•°å­—)  
+* [å®å’š]({{ site.url }}/about/å®å’š)
 
-<div markdown="0"><a href="https://github.com/Mogara/QSanguosha" class="btn btn-info">ÏîÄ¿Ö÷Ò³</a> <a href="https://github.com/Mogara/QSanguosha/archive/master.zip" class="btn btn-success">ÏÂÔØÔ´Âë</a></div>
+<div markdown="0"><a href="https://github.com/Mogara/QSanguosha" class="btn btn-info">é¡¹ç›®ä¸»é¡µ</a> <a href="https://github.com/Mogara/QSanguosha/archive/master.zip" class="btn btn-success">ä¸‹è½½æºç </a></div>
