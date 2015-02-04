@@ -29,10 +29,15 @@ author: 数字
 ###源码地址
 
 目前的源码地址有这样几个：  
-太阳神三国杀-主线项目：[https://github.com/Mogara/QSanguosha](https://github.com/Mogara/QSanguosha) （目前正处于开发状态）  
-太阳神三国杀-国战项目：[https://github.com/Mogara/QSanguosha-For-Hegemony](https://github.com/Mogara/QSanguosha-For-Hegemony)  
-你可以任选一个进行编译，当然，我们建议你选择国战，因为主线还没有彻底完成。  
-注意，这些网站都是外国网站，有时候会非常慢。 
+太阳神三国杀-新框架：[https://github.com/Mogara/QSanguosha](https://github.com/Mogara/QSanguosha) （目前正处于开发状态）  
+太阳神三国杀-国战：[https://github.com/Mogara/QSanguosha-For-Hegemony](https://github.com/Mogara/QSanguosha-For-Hegemony)  
+太阳神三国杀-V2：[https://github.com/Mogara/QSanguosha-v2]{https://github.com/Mogara/QSanguosha-v2}  
+你可以任选一个进行编译，当然，我们建议你选择国战和V2，因为新框架还没有完成。  
+注意，这些网站都是外国网站，有时候会非常慢。  
+大家可以在国内的镜像网站下Clone，如果镜像不全，也可以从Github上pull更新。
+太阳神三国杀-新框架（国内镜像）：[https://git.oschina.net/Fsu0413/QSanguosha]{https://git.oschina.net/Fsu0413/QSanguosha}
+太阳神三国杀-国战（国内镜像）：[https://git.oschina.net/Fsu0413/QSanguosha-For-Hegemony]{https://git.oschina.net/Fsu0413/QSanguosha-For-Hegemony}
+太阳神三国杀-V2（国内镜像）:[https://git.oschina.net/Fsu0413/QSanguosha-v2]{https://git.oschina.net/Fsu0413/QSanguosha-v2}
 
 ###构建工具
 
