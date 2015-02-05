@@ -34,11 +34,11 @@ author: 数字
 太阳神三国杀-V2：[https://github.com/Mogara/QSanguosha-v2](https://github.com/Mogara/QSanguosha-v2)  
 你可以任选一个进行编译，当然，我们建议你选择国战和V2，因为新框架还没有完成。  
 注意，这些网站都是外国网站，有时候会非常慢。  
-大家可以在国内的镜像网站下Clone，如果镜像不全，也可以从Github上pull更新。
-太阳神三国杀-新框架（国内镜像）：[https://git.oschina.net/Fsu0413/QSanguosha](https://git.oschina.net/Fsu0413/QSanguosha)
-太阳神三国杀-国战（国内镜像）：[https://git.oschina.net/Fsu0413/QSanguosha-For-Hegemony](https://git.oschina.net/Fsu0413/QSanguosha-For-Hegemony)
-太阳神三国杀-V2（国内镜像）:[https://git.oschina.net/Fsu0413/QSanguosha-v2](https://git.oschina.net/Fsu0413/QSanguosha-v2)
-
+大家可以在国内的镜像网站下Clone，如果镜像不全，也可以从Github上pull更新。  
+太阳神三国杀-新框架（国内镜像）：[https://git.oschina.net/Fsu0413/QSanguosha](https://git.oschina.net/Fsu0413/QSanguosha)  
+太阳神三国杀-国战（国内镜像）：[https://git.oschina.net/Fsu0413/QSanguosha-For-Hegemony](https://git.oschina.net/Fsu0413/QSanguosha-For-Hegemony)  
+太阳神三国杀-V2（国内镜像）:[https://git.oschina.net/Fsu0413/QSanguosha-v2](https://git.oschina.net/Fsu0413/QSanguosha-v2)  
+  
 ###构建工具
 
 ####编译器
