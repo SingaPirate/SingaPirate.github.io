@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 太阳神三国杀构建指南
+title: 太阳神三国杀 Windows 及 Android 构建指南
 description: "构建指南"
 tags: [项目文档]
 image:
@@ -429,10 +429,4 @@ Tips：如果你不知道生成目录，你可以点击QtCreator左边的项目�
 打开源码目录下的 builds 文件夹里面的 sanguosha.ts 文件：  
 然后点击文件→发布。于是翻译文件 sanguosha.qm 就在 builds 文件夹里生成了。请将其复制到源码目录下。  
 然后你就可以开始游戏了。
-
-####Linux平台
-
-####OS X平台
-
-	（这部分文档等待更新）
 
