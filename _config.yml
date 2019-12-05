@@ -1,24 +1,24 @@
-title:            Mogara Free Software
-description:      Mogara自由软件主页
+title:            SingaPirates Free Software
+description:      自由玩耍的舒适之家！
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 100
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:			  http://mogara.org
+url:			  SingaPirates.github.io
 
 uyan_enabled:	  true
 
 # Owner/author information
 owner:
-  name:           Mogara
+  name:           CoffeeYin
   avatar:         logo.jpg
-  bio:            "作品：太阳神三国杀(2010) 崩溃信息上传工具(2014) ..."
-  email:          mogara@mogara.org
+  bio:            "TEST TEXT..."
+  email:          1270821450@qq.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         Mogara
+  github:         SingaPirates
   stackexchange:  
   linkedin:       
   instagram:      
